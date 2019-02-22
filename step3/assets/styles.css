@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  list-style: none;
+}
+
+.main-container{
+  background: #16A085;
+  width: 100%;
+  height: 100vh;
+}
+
+.inner-container{
+  background: #fff;
+  border-radius: 3px;
+  width: 600px;
+  height: 436px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.inner-inner-container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.inner-inner-container h1 {
+  margin-top: 40px;
+  font-size: 26px;
+  font-weight: 900;
+}
+
+.inner-inner-container h1 span {
+  float: right;
+}
+
+.message {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 13px;
+  color: #AAB1B9;
+}
+
+.inner-inner-container li {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.price {
+  float: right;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.inner-inner-container span {
+  color: #111;
+}
+
+.total {
+  font-weight: bold;
+  color: #5C5C5C;
+}
+
+.bike{
+  width: 500px;
+  margin-top: -100px;
+}
+
