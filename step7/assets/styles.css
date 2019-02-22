@@ -168,4 +168,12 @@
     display: flex;
     margin-top: 35%;
   }
+
+  .footer span{
+    font-size: 16px;
+  }
+
+  .comment-image {
+    margin-left: 200px;
+  }
 }
