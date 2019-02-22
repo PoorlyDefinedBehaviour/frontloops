@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Robot, sans-serif;
+}
+
+.main-container{
+  width: 100%;
+  height: 100vh;
+  background: #97B4CD;
+}
+
+.outter-container{
+  width: 406px;
+  height: 483px;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.inner-container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  background: #6A96D8;
+  height: 56px;
+  line-height: 56px
+}
+
+.header span {
+  color: #fff;
+  font-weight: bolder;
+  padding-left: 10px;
+  font-size: 13px;
+}
+
+.header span:before{
+  content: "\25CF";
+  padding-right: 10px;
+  color: #fff;
+}
+
+.header img {
+  float: right;
+  height: 56px;
+  transform: scale(0.5);
+  opacity: 0.5;
+}
+
+.today-container {
+  display: flex;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  justify-content: space-evenly;
+}
+
+.today::before{
+  content: "";
+  width: 130px;
+  border-bottom: 1px solid #E5E5E5;
+  position: absolute;
+  top: 18%;
+  left:10%;;
+}
+
+.today::after{
+  content: "";
+  width: 130px;
+  border-bottom: 1px solid #E5E5E5;
+  position: absolute;
+  top: 18%;
+  right: 10%;;
+}
+
+.today {
+  color: rgb(207, 208, 209);
+  font-weight: bold;
+}
+
+.time{
+  font-size: 12px;
+  font-weight: bold;
+  color: #cccbcb;
+  margin: 5px;
+}
+
+.message-1 div p, .message-2 div span, .message-3 div p, .message-4 p {
+  font-weight: bold;
+  font-size: 14px;
+  color: #111;
+}
+
+.message-1 div{
+  background-color: #E6EDF6;
+  width: 268px;
+  padding: 10px;
+}
+
+.message-2{
+  padding-top: 20px;
+}
+
+.message-2 div {
+  background-color: #f2f2f2;
+  padding: 10px;
+  width: 268px;
+  margin-left: 50px;
+}
+
+.message-2 p{
+  float: right;
+}
+
+.message-3 {
+  padding-top: 20px;
+}
+
+.message-3 div{
+  background-color: #E6EDF6;
+  padding: 10px;
+  width: 75px;
+}
+
+.message-4{
+  background-color: #FFC2C1;
+  padding: 10px;
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 120px;
+  margin-bottom: 20px;
+}
+
+.message-input .send{
+  color: #85A4DB;
+  font-weight: bold;
+}
+
+.message-input{
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.message-input > span{
+  color: #8f8d8d;
+  font-weight: bold;
+  font-size: 12px;
+}
