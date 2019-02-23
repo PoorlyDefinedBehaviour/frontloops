@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: Roboto;
+}
+
+.page{
+  background: #F8EBE9;
+  width: 100%;
+  height: 100vh;
+}
+
+.main-container{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 998px;
+  height: 663px;
+  display: flex;
+}
+
+.image-section{
+  width: 40%;
+  height: 100%;
+  background: url(img/background.jpg) no-repeat;
+  background-size: cover;
+}
+
+.image-section .back{
+  color: #7696C0;
+}
+
+.back{
+  padding-left: 20px;
+  display: flex;
+  line-height: 80px;
+}
+
+.back span{
+  padding-top: 3px;
+  cursor: pointer;
+}
+
+.content-section{
+  background: #fff;
+  width: 60%;
+}
+
+.navbar ul{
+  display: flex;
+  color: #ADADAD;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  margin-left: 250px;
+  cursor: pointer;
+}
+
+.navbar .active{
+  color: #111;
+  font-weight: bold;
+}
+
+.headline{
+  margin-top: 140px;
+  margin-left: 105px;
+}
+
+.headline h1{
+  font-family: PlayFair+Display, PlayFair, sans-serif;
+  margin-bottom: 32px;
+}
+
+.headline > h3{
+  font-weight: normal;
+  margin-bottom: 32px;
+}
+
+.headline h3 > span{
+  font-weight: bold;
+}
+
+.main-text{
+  display: flex;
+}
+
+.video{
+  margin-left: 105px;
+}
+
+.video .preview {
+  width: 190px;
+}
+
+.video ul {
+  font-size: 13px;
+  font-weight: bold;
+  color: #7B8BA6;
+  margin-top: 15px;
+  display: flex;
+  cursor: pointer;
+}
+
+.video ul img {
+  margin-top: -5px;
+  margin-left: 3px;
+  color: #eee;
+}
+
+.text{
+  margin-left: 45px;
+  color: #353535;
+  font-weight: 300;
+  line-height: 25px;
+}
+
