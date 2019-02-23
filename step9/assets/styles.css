@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  list-style: none;
+}
+
+.outter-container{
+  background: #f2f2f2;
+  height: 600px;
+}
+
+.wallet-container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wallet-container ul {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wallet-container ul li {
+  font-size: 20px;
+  color: #111;
+}
+
+.wallet-container ul img{
+  cursor: pointer;
+}
+
+.visa{
+  background: #fff;
+  color: #6d6c6c;
+  height: 110px;;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.visa img{
+  width: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.visa img, .visa span, .visa p{
+  margin-left: 18px;
+}
+
+.mastercard{
+  margin-top: 20px;
+  background: #fff;
+  color: #6d6c6c;
+  height: 110px;;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.mastercard img{
+  width: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mastercard img, .mastercard span, .mastercard p{
+  margin-left: 18px;
+}
+
+.maestro{
+  margin-top: 20px;
+  background: #fff;
+  color: #6d6c6c;
+  height: 110px;;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.maestro img{
+  width: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.maestro img, .maestro span, .maestro p{
+  margin-left: 18px;
+}
+
+.balance-container{
+  background: #fff;
+  margin-top: 100px;
+}
+
+.inner-balance-container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.inner-balance-container ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner-balance-container li {
+  font-weight: bold;
+}
+
+.inner-balance-container ul li span{
+  font-size: 10px;
+  position: relative;
+  top: -10px;
+}
+
+.balance{
+  padding-top: 20px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid rgb(224, 224, 224);
+}
+
+.iphone{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  line-height: 15px;
+}
+
+.iphone li span{
+  color: #949494;
+}
+
+.iphone img{
+  border-radius: 50%;
+  border: 2px solid #e7e7e7;
+}
+
+.iphone-price h3{
+  color: #8797C6;
+}
+
+.funds{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  line-height: 15px;
+}
+
+.funds li span{
+  color: #949494;
+}
+
+.funds-info{
+  margin-left: -50px;
+}
+
+.funds img{
+  border-radius: 50%;
+  border: 2px solid #e7e7e7;
+}
+
+.funds-price h3{
+  color: #8FD065;
+}
+
+.energy{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  line-height: 15px;
+}
+
+.energy li span{
+  color: #949494;
+}
+
+.energy-info{
+  margin-left: -50px;
+}
+
+.energy img{
+  border-radius: 50%;
+  border: 2px solid #e7e7e7;
+}
+
+.energy-price h3{
+  color: #8797C6;
+}
+
+.cinema{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  line-height: 15px;
+}
+
+.cinema li span{
+  color: #949494;
+}
+
+.cinema-info{
+  margin-left: -10px;
+}
+
+.cinema img{
+  border-radius: 50%;
+  border: 2px solid #e7e7e7;
+}
+
+.cinema-price h3{
+  color: #8797C6;
+}
+
+@media only screen and (min-width: 760px) {
+
+  .page{
+    width: 100%;
+    height: 100vh;
+    background: #F7CD75;
+  }
+
+  .main-container{
+    background: #F7CD75;
+    width: 1000px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .outter-container{
+    width: 100%;
+    display: flex;
+  }
+
+  .wallet-container{
+    width: 40%;
+  }
+
+  .balance-container{
+    width: 60%;
+  }
+
+  .visa, .maestro, .mastercard{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: -10px;
+  }
+
+  .my-wallets{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .balance-container{
+    margin-top: 0px;
+    padding-top: 30px;
+  }
+}
