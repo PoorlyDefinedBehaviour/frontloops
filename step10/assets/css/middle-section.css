@@ -1,0 +1,72 @@
+.after-landing{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.first-section{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-section div{
+  width: 28%;
+}
+
+.first-section div h3{
+  color: #433C38;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.first-section div p{
+  font-size: 13px;
+  color: rgb(168, 167, 167);
+}
+
+.first-section .right button{
+  color: #EA625C;
+  margin-top: 10px;
+  font-display: bold;
+  background: none;
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+}
+
+.nikesportband{
+  margin-top: 220px;
+  width: 49%;
+}
+
+
+.nikesportband h2{
+  font-size: 32px;
+  color: #333333;
+  margin-bottom: 64px;
+}
+
+.nikesportband p{
+  padding-left: 30px;
+  border-left: 1px solid #c7c6c6;
+  color: #B4B2B3;
+  font-weight: lighter;
+}
+
+.nikesportband button{
+  margin-top: 35px;
+  background-color: #EA625C;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.nikesportsband-hero img{
+  width: 400px;
+  position: relative;
+  left: 525px;
+  top: -450px
+}

@@ -1,0 +1,36 @@
+.last-section{
+  background: url(../img/runners.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 728px;
+  margin-top: -350px;
+}
+
+.last-section .content{
+  padding-top: 200px;
+  margin-left: 50%;
+  width: 500px;
+  color: #fff;
+}
+
+.last-section .content h2{
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.last-section .content p{
+  padding-left: 35px;
+  border-left: 2px solid #fff;
+  margin-bottom: 45px;
+}
+
+.last-section .content button{
+  background-color: #EA625C;
+  padding: 10px;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
